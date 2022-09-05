@@ -11,7 +11,6 @@ function generatePassword() {
   var userArray = [];
   var resultArray = [];
 
-  uppercaseArray [1]
 //Prompt to input desired amount of characters you want in you password
   var numCharacter = prompt ("How many Characters do you want in you password between 8 and 128?");
  //confirm yes or no button for types of characters you would like in your password  
@@ -49,8 +48,8 @@ function generatePassword() {
     }
   
     return userArray.join("") ;
-  }
 
+  }
 
 // Write password to the #password input
 function writePassword() {
