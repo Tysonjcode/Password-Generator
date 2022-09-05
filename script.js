@@ -50,7 +50,7 @@ function generatePassword() {
   
     return userArray.join("") ;
   }
-}
+
 
 // Write password to the #password input
 function writePassword() {
